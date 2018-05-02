@@ -1,0 +1,46 @@
+(dp0
+I0
+(lp1
+V2018-04-25 | How To Create A Favicon.ico With GIMP - https://t.co/TEQxBZ1Fqw https://t.co/dMAnLZS6D2
+p2
+asI1
+(lp3
+V2018-04-24 | @euro268 Your IP was blocked for the following reason: When accessing https://t.co/nR6ahaMuIq your browser made a r\u2026 https://t.co/0HNLUfxnLY
+p4
+asI2
+(lp5
+V2018-04-23 | Imagemagick To Create Favicon.ico With 16x16 And 32x32 Sizes In It. GitHub - https://t.co/N3ln7HcowI https://t.co/GVADStiSVz
+p6
+aV2018-04-23 | Grab Favicon.ico Using Google Chrome Dev Tools - https://t.co/tugLq7emnC https://t.co/rd1qwSU2mI
+p7
+aV2018-04-23 | Legs are still sore but here's what I've gotta fix:  * Read only access to API for anonymous users * Favicon.ico, i\u2026 https://t.co/kplDrTGXk1
+p8
+asI3
+(lp9
+V2018-04-22 | @erincandescent @technololigy Last time I had one of these, the root cause was "every other node points to both mai\u2026 https://t.co/gjBt3LLD2U
+p10
+aV2018-04-22 | Want to know the file type of that favicon?  $ file favicon.ico  favicon.ico: PNG image data, 32 x 32, 8-bit/color RGBA, non-interlaced
+p11
+aV2018-04-22 | Creating Your Own Favicon.ico Icon https://t.co/b9jPXo1O55 https://t.co/lptKUJLlxK
+p12
+aV2018-04-22 | Creating Your Own Favicon.ico Icon - https://t.co/cQOCOblLuq https://t.co/y9jz0oLFpC
+p13
+aV2018-04-22 | Unable To Discover Favicon.ico On Internet Portal Adxstudio Group https://t.co/d6cl8ofAaw https://t.co/sTyRM6zdPq
+p14
+aV2018-04-22 | Unable To Discover Favicon.ico On Internet Portal Adxstudio Group - https://t.co/4dHKtYDYtc https://t.co/sXHPHRlv6s
+p15
+aV2018-04-22 | Converting A BMP (Or JPG, GIF, Or PNG) To ICO For A Favorites Icon (Favicon.ico) https://t.co/I9nwuEvk1p https://t.co/xmJS12Lswl
+p16
+aV2018-04-22 | Converting A BMP (Or JPG, GIF, Or PNG) To ICO For A Favorites Icon (Favicon.ico) - https://t.co/yxCjjTejN4 https://t.co/hqwet1SZjh
+p17
+asI4
+(lp18
+sI5
+(lp19
+sI6
+(lp20
+sI7
+(lp21
+sI8
+(lp22
+s.
