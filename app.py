@@ -28,6 +28,7 @@ def hello_world(symbol):
 	keyword = '$'+symbol
 	
 	twitterData = twitter_data.TwitterData('2018-5-02')
+	#Test
 	tweets = twitterData.getTwitterData(keyword)
 	for t in tweets.items():
 		for value in t[1]:
