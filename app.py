@@ -3,7 +3,7 @@ import twitter_data
 import get_stock_data
 import pandas as pd
 from pandas import DataFrame
-from datetime import date
+from datetime import datetime,date
 import csv
 from StringIO import StringIO
 from zipfile import ZipFile
@@ -11,7 +11,6 @@ from urllib import urlopen
 import re
 import numpy as np
 from sklearn.model_selection import KFold
-import datetime
 import pygal
 from nsetools import Nse
 from sklearn import svm, grid_search
@@ -36,8 +35,8 @@ tweet_s = []
 afinn = dict()
 csvFile = open('Data/Tweets.csv', 'w')
 csvWriter = csv.writer(csvFile)
-startDate = datetime.date(2020,2,18)
-endDate = datetime.date(2020,5,26) 
+startDate = datetime.date(2015,1,1)
+endDate = date.today().strftime("%m-%d-%Y")
 
 	
 def manipulate(current,closing):
@@ -51,13 +50,13 @@ def manipulate(current,closing):
 	return ans
 	
 def fetch(keyword,stockSymbol):
-	twitterData = twitter_data.TwitterData('2020-2-18')
+	twitterData = twitter_data.TwitterData(datetime.today().strftime('%Y-%m-%d'))
 	tweets = twitterData.getTwitterData(keyword)
 	#Twitter data fetched
 	
 	keyword2 = keyword
 	
-	historical_data = get_history(symbol=stockSymbol,start= datetime.date(2020,2,18),end = datetime.date(2020,5,26))
+	historical_data = get_history(symbol=stockSymbol,start= datetime.date(2015,1,1),end = datetime.today().strftime('%Y-%m-%d'))
 	data = pd.DataFrame(historical_data, columns=['Open', 'Close', 'High', 'Low'])
 	data.reset_index(level=0, inplace=True)
 	#print(data)
